@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website using Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Wandile Mawelela",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3"
+  }
+}
