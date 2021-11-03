@@ -1,5 +1,5 @@
-@use '../custom' as *; //Asterix removes namespaces
-@use '../components/mixins' as *;
+@use "../custom" as *; //Asterix removes namespaces
+@use "../components/mixins" as *;
 
 .btn-rounded {
     //Hide cellphone number for small device screens
@@ -12,7 +12,6 @@
     margin: 0;
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
-    
 
     span {
         position: absolute;
@@ -29,7 +28,6 @@
             font-size: 1rem;
             line-height: 2.5rem;
         }
-
     }
 
     &:hover {
